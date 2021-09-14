@@ -1,0 +1,84 @@
+@font-face {
+  font-family: customFont;
+  src: url(resource/CircularStd-Black.ttf);
+}
+.container{
+  margin: 0;
+}
+#div1{
+    height: 100%;
+    left: 0px;
+    padding: 10px;
+  background-color:#FFFFFF;
+
+
+}
+#div3{
+    position: fixed;
+    height: 100%;
+    right: 0px;
+    padding: 10px;
+  background-color:#ffb01f;
+
+}
+#title{
+  left: 20px;
+  top:20px
+  padding: 10px;
+  font-size: 50px;
+  color:#7042FF;
+  background-color:#F7F7F9;
+  font-family: customFont;
+}
+body{
+  font-size: 30px;
+  color:#000000;
+  background-color:#F7F7F9;
+  font-family: sans-serif;
+  font-size: 14;
+}
+h3{
+  font-size: 30px;
+  color:#2B2D42;
+  font-family: sans-serif;
+  font-size: 14;
+  font-weight: 900;
+}
+#link{
+  color:#7042FF;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+#link2{
+  color:#ffffff;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+h2{
+color:##ffb01f;
+
+}
+
+.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+#hr1{
+  height: 1px;
+  width: 250px;
+  background:#d3dbf0;
+  border:#d3dbf0;
+}
+
+#imgb{
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+
+}
+
+.right{
+  text-align: right;
+}
